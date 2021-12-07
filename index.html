@@ -3,23 +3,32 @@
   <head>
     <title>Odin Recipes</title>
     <meta charset="UTF-8" />
-    <a href = index.html><img src="https://img.icons8.com/glyph-neue/64/000000/cook-male.png"/></a>
+    <a href="index.html"
+      ><img
+        id="Logo"
+        src="https://img.icons8.com/glyph-neue/64/000000/cook-male.png"
+    /></a>
+    <link rel="stylesheet" href="../recipes/style.css" />
   </head>
   <body>
     <h1>Odin Recipes</h1>
-    <p>Try our new and different tasty recipes and let us know if you like it.</p>
-    <hr>
+    <p id="Desc">
+      Try our new and different tasty recipes and let us know if you like it.
+    </p>
+    <hr />
     <h2>Our best Recipes</h2>
-    <ul>  
-    <a href="/recipes/lasagna.html">
-        <li>Lasagna</li>
-    </a>
-    <a href="/recipes/pasta.html">
-          <li>Pasta</li>
-    </a>
-    <a href="/recipes/bruschetta.html">
-          <li>Bruschetta</li>  
-    </a>
-    </ul> 
+    <div  id="list">
+      <ul>
+        <a href="/recipes/lasagna.html">
+          <li class="list-item">Lasagna</li>
+        </a>
+        <a href="/recipes/pasta.html">
+          <li class="list-item">Pasta</li>
+        </a>
+        <a href="/recipes/bruschetta.html">
+          <li class="list-item">Bruschetta</li>
+        </a>
+      </ul>
+    </div>
   </body>
 </html>
