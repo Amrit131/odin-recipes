@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap");
+
+body {
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  text-align: center
+  ;
+}
+
+#nav-bar{
+    font-size: 25px ;
+    font-weight: 700; 
+}
+
+#img{
+    height: auto;
+    width: 60px;
+}
+
+#nav-bar a {
+    color: #c40000;
+    padding: 15px;
+    border: none;
+    text-decoration: none;
+}
+
+#nav-bar a:hover{
+    color: black;
+}
+
+h1{
+    font-family: "Corinthia",'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #c40000;
+    text-align:center;
+}
+
+h1:hover{
+    color: black;
+}
+
+#image{
+    height: auto;
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+h2{
+    font-size: 70px;
+    font-family: "Corinthia", 'Times New Roman', Times, serif ;
+    padding-top: 100px;
+    color: #c40000; ;
+}
+
+p{
+    font-size: 25px;
+}
+
+h3{
+    font-family:"Corinthia", 'Times New Roman', Times, serif;
+    font-size:60px;
+    text-decoration: underline;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 50px;
+    
+}
+
+h4{
+    font-family:"Corinthia", 'Times New Roman', Times, serif;
+    font-size:60px;
+    text-decoration: underline;
+}
+
+h5{
+    font-family:"Corinthia", 'Times New Roman', Times, serif;
+    font-size:60px;
+    text-decoration: underline;
+}

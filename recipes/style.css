@@ -1,18 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap");
 
-body {
-  background-color: #ffffff;
-  opacity: 1;
-  background-size: 58px 58px;
-  background-image: repeating-linear-gradient(
-    to right,
-    #ddbf00,
-    #ddbf00 2.9000000000000004px,
-    #ffffff 2.9000000000000004px,
-    #ffffff
-  );
-  
-}
 
 #Logo {
   display: block;
